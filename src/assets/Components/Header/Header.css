@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    width: 6rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.li-head ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.li-head ul li {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+
+.navlink-active{
+    text-decoration: none;
+    color: black;
+}
+
+.login-signup {
+    display: flex;
+    gap: 1rem;
+}
+
+.login-signup button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: -1px -1px 10px gray;
+    border-radius: 4px;
+    background-color: rgb(8, 240, 0);
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+
+.login-signup button:hover {
+    transform: scale(1.1);
+}
